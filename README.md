@@ -1,20 +1,44 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# PatientPassport 🏥
 
-# Run and deploy your AI Studio app
+**[▶ Live Demo](https://aistudio.google.com/apps/22b986d3-b95b-4308-9e53-272d3972fe4e?showPreview=true&showAssistant=true)**
 
-This contains everything you need to run your app locally.
+An AI-powered personal health management app built with React and Google Gemini AI. 
+PatientPassport puts your entire medical life in one place — from lab results to 
+medications, appointments, and emergency access.
 
-View your app in AI Studio: https://ai.studio/apps/22b986d3-b95b-4308-9e53-272d3972fe4e
+---
+
+## Features
+
+- 🤖 **AI Assistant** — Powered by Google Gemini, answers health questions and explains medical data in plain language
+- 🧪 **Lab Interpreter** — AI reads and explains your lab results so you actually understand them
+- ⚠️ **Risk Prediction** — AI predicts potential health risks based on your records
+- 📋 **Smart Action Plan** — Personalized AI-generated health action plans
+- 🚨 **Emergency QR Code** — Generates a scannable QR with your critical health info for first responders
+- 👨‍⚕️ **Doctor Hub** — Manage and share records with your healthcare providers
+- 🔗 **Share Records** — Securely share your health records with doctors or specialists
+- 💊 **Medications** — Track all your medications in one place
+- 🗓️ **Med Schedule** — Never miss a dose with medication scheduling
+- 📈 **Health Trends** — Visualize your health data over time
+- 📅 **Appointments** — Manage all your medical appointments
+- 👤 **Profile** — Your complete health profile
+
+---
+
+## Tech Stack
+
+- **React 19** — Frontend framework
+- **TypeScript** — Type-safe code
+- **Google Gemini AI** — AI features (lab interpretation, risk prediction, assistant)
+- **Tailwind CSS** — Styling
+- **Framer Motion** — Animations
+- **QR Code React** — Emergency QR generation
+- **PptxGenJS** — Export health reports to PowerPoint
+- **SQLite** — Local health data storage
+- **Vite** — Build tool
+
+---
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```bash
